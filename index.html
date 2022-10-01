@@ -4,45 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="port/css.css"> 
     <title>BIO</title>
+    <style>
+            .image{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%; 
+         }
+</style>
 </head>
-<body>
-   <img src="img/me.jpg" alt="#">
+<body style="background-color:#D0B971 ;">
+   <img src="img/me.jpg" alt=" u do somethig wrong" class="image">
+   <div class="container">
+    <h2 class="title">
+      <span class="title-word title-word-1">This</span>
+      <span class="title-word title-word-2">is</span>
+      <span class="title-word title-word-3">my</span>
+      <span class="title-word title-word-4">Portfolio</span>
+    </h2>
+  </div>
   <h1>
     <p>
         Portfolio
     </p>
   </h1>
-  <h2>
+  <style>
+        .aaa{
+            color: brown;
+        }
+  </style>
+  <h2 class="aaa" >
     My name is Erlan , I'm student of AIU
   </h2>
+  <style>
+    .title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #956348;
+  --color-2: #217ca3;
+  --color-3: #863b39;
+}
+
+.title-word-2 {
+  --color-1: #ba933d;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #43a79b;
+  --color-2: #a14e4c;
+  --color-3: #2c8378;
+}
+
+.title-word-4 {
+  --color-1: #29353a;
+  --color-2: #155e23;
+  --color-3: #332f7a;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: left;  
+  text-align: left;
+  height: 3.55vh
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3.5w;
+  text-transform: uppercase;
+}
+  </style>
 <h1>
     <p>
        Short Bio
     </p>
 </h1>
-<h2>
+<h2 class="bbb">
     I was born in 4th April in Ulyanovsk , Russia 
 </h2>
+<style>
+  .bbb{
+    color:#1a3b5e;
+  }
+</style>
 <h1>
     <p>Something about Skills</p>
 </h1>
-<h2>
+<h2 class="ccc">
     I play volleyball in 5 years and I have awards in this sport ; 
     For example our team take second place in universty championship 
 </h2>
+<style>
+  .ccc{
+    color:#481C4A;
+  }
+</style>
 <h1>
    <p>Social Media</p> 
 </h1>
-<h2>
+<h2 class="www" >
    this my  <a href="erlanomosov@gmail.com">email</a> u can write something there if u want
 </h2>
+<style>
+  .www{
+    color:#CC3E75;
+  }
+</style>
 <h2>
 <ul> List of skills:
+  <div class="ddd">
     <li>Playing video games like : csgo, apex and etc...</li>
     <li>Draw</li>
     <li> Sometime play basketball </li>
-    
+  </div> 
+  <style>
+    .ddd{
+      color: #4F8C18;
+    }
+  </style>
 </ul>
 
 </h2>
